@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "main": "./src/App.tsx", 
+    "main": "./src/App.tsx",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mafioman.alfred"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,6 +30,11 @@
     },
     "experiments": {
       "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1329b979-f826-43fe-b1f4-b84cdb006dc4"
+      }
     }
   }
 }
